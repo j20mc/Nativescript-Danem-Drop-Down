@@ -1,7 +1,7 @@
 import { AfterViewInit, Directive, ElementRef, HostListener, Inject, NgModule, forwardRef } from "@angular/core";
 import { FormsModule, NG_VALUE_ACCESSOR } from "@angular/forms";
 import { registerElement } from "nativescript-angular/index";
-import { BaseValueAccessor } from "nativescript-angular/forms/value-accessors/base-value-accessor";
+import { BaseValueAccessor } from "nativescript-angular/forms/value-accessors/index";
 import { View } from "tns-core-modules/ui/core/view";
 
 registerElement("DropDown", () => require("../drop-down").DropDown);
