@@ -1,5 +1,3 @@
-<span style="color:red">**This repo only supports NativeScript pre-6.0. The latest version of the plugin supporting and tested on the latest version of NativeScript is availble as part of [ProPlugins](https://www.proplugins.org).**</span>
-
 # NativeScript DropDown widget 
 
 A NativeScript DropDown widget. The DropDown displays items from which the user can select one. For iOS it wraps up a [UILabel](https://developer.apple.com/reference/uikit/uilabel) with an `inputView` set to an [UIPickerView](https://developer.apple.com/library/prerelease/ios/documentation/UIKit/Reference/UIPickerView_Class/index.html) which displays the items. For Android it wraps up the [Spinner](http://developer.android.com/reference/android/widget/Spinner.html) widget.
