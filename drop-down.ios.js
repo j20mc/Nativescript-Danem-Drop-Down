@@ -325,7 +325,7 @@ var DropDownListPickerDelegateImpl = (function (_super) {
             bottom: drop_down_common_1.Length.toDevicePixels(itemsPaddingBottom, 0),
             left: drop_down_common_1.Length.toDevicePixels(itemsPaddingLeft, 0)
         };
-        label.font = style.fontInternal.getUIFont(label.font);
+        // label.font = style.fontInternal.getUIFont(label.font);
         var itemsTextAlignment = (owner.nativeView.itemsTextAlignment === drop_down_common_1.itemsTextAlignmentProperty.defaultValue)
             ? style.textAlignment : owner.nativeView.itemsTextAlignment;
         switch (itemsTextAlignment) {
